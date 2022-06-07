@@ -13,7 +13,6 @@ public class AdminMenu {
         System.out.println("Hello Admin menu has been started");
         Scanner scan=new Scanner(System.in);
         String action=scan.nextLine();
-        scan.close();
         switch(action)
         {
             case "1":
@@ -39,7 +38,7 @@ public class AdminMenu {
             case "5":
             {
                 System.out.println("This is case 5");
-                
+                System.out.println("Change");
                 break;
             }
         }
